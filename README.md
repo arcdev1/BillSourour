@@ -1,4 +1,4 @@
-**This project was ~~stolen~~ forked from https://github.com/bnb/bitandbang –Special thanks to Tierney Cyren**
+*This project was ~~stolen~~ forked from https://github.com/bnb/bitandbang. Thank you [Tierney Cyren](https://bnb.im)*
 
 It's me, Bill!
 
