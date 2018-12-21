@@ -17,12 +17,14 @@ const data = {
   name: chalk.white('Bill Sourour /'),
   handle: chalk.cyan('arcdev1'),
   work: chalk.white('Founder, Consultant, Teacher at Dev Mastery'),
+  medium: chalk.cyan('https://medium.com/@BillSourour'),
   twitter: chalk.cyan('https://twitter.com/BillSourour'),
   github: chalk.cyan('https://github.com/arcdev1'),
   linkedin: chalk.cyan('https://linkedin.com/in/BillSourour'),
   web: chalk.cyan('https://devmastery.com'),
   npx: chalk.white('npx BillSourour'),
   labelWork: chalk.white.bold('      Work:'),
+  labelMedium: chalk.white.bold('   Medium:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
@@ -34,6 +36,7 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
+const mediuming = `${data.labelMedium}  ${data.medium}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
@@ -48,6 +51,8 @@ const output =
   working +
   newline +
   twittering +
+  newline +
+  mediuming +
   newline +
   githubing +
   newline +
