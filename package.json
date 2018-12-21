@@ -1,20 +1,20 @@
 {
-  "name": "bitandbang",
+  "name": "BillSourour",
   "version": "1.1.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Bill Sourour (@BillSourour)",
   "main": "index.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "BillSourour": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/arcdev1/BillSourour.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Bill Sourour <bill@devmastery.com> (https://devmastery.com)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",

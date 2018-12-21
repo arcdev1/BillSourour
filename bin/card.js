@@ -14,14 +14,14 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Tierney Cyren /'),
-  handle: chalk.cyan('bitandbang'),
+  name: chalk.white('Bill Sourour /'),
+  handle: chalk.cyan('arcdev1'),
   work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  twitter: chalk.cyan('https://twitter.com/bitandbang'),
-  github: chalk.cyan('https://github.com/bnb'),
-  linkedin: chalk.cyan('https://linkedin.com/in/bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.white('npx bitandbang'),
+  twitter: chalk.cyan('https://twitter.com/arcdev1'),
+  github: chalk.cyan('https://github.com/arcdev1'),
+  linkedin: chalk.cyan('https://linkedin.com/in/arcdev1'),
+  web: chalk.cyan('https://arcdev1.im'),
+  npx: chalk.white('npx arcdev1'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
@@ -41,6 +41,21 @@ const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
-const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
+const output =
+  heading +
+  newline +
+  newline +
+  working +
+  newline +
+  twittering +
+  newline +
+  githubing +
+  newline +
+  linkedining +
+  newline +
+  webing +
+  newline +
+  newline +
+  carding
 
 console.log(chalk.green(boxen(output, options)))
