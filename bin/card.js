@@ -15,7 +15,7 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('Bill Sourour /'),
-  handle: chalk.cyan('arcdev1'),
+  handle: chalk.cyan('@BillSourour'),
   work: chalk.white('Founder, Consultant, Teacher at Dev Mastery'),
   medium: chalk.cyan('https://medium.com/@BillSourour'),
   twitter: chalk.cyan('https://twitter.com/BillSourour'),
@@ -24,7 +24,7 @@ const data = {
   web: chalk.cyan('https://devmastery.com'),
   npx: chalk.white('npx BillSourour'),
   labelWork: chalk.white.bold('      Work:'),
-  labelMedium: chalk.white.bold('   Medium:'),
+  labelMedium: chalk.white.bold('    Medium:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
